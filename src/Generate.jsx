@@ -9,7 +9,7 @@ const Generate = () => {
     const [link, setLink] = useState('')
 
     const generateLink = () => {
-        setLink(`https://birthday-wisher.netlify.app/birthday/${name}/${day}/${month}`)
+        setLink(`https://birthday-wish-dun.vercel.app/${name}/${day}/${month}`)
     }
 
     return (

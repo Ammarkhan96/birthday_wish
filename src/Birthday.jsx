@@ -55,7 +55,7 @@ const Birthday = ({ name, day, month }) => {
         minutes %= 60;
         hours %= 24;
 
-        // Setting States
+       
         setState((prevState) => ({
           ...prevState,
           seconds,
@@ -64,7 +64,7 @@ const Birthday = ({ name, day, month }) => {
           days,
           isItBday,
         }));
-        // console.log(`${days}:${hours}:${minutes}:${seconds} , ${isItBday}`);
+       
       };
       if (!isItBday) {
         countdown();
